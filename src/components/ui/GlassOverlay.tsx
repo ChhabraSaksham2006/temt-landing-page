@@ -1,7 +1,7 @@
 import * as React from "react";
 import { cn } from "@/lib/utils";
 
-export interface GlassOverlayProps extends React.HTMLAttributes<HTMLDivElement> {}
+export type GlassOverlayProps = React.HTMLAttributes<HTMLDivElement>;
 
 export function GlassOverlay({ className, ...props }: GlassOverlayProps) {
   return (

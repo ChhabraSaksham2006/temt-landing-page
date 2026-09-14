@@ -53,7 +53,7 @@ export function MonthEndClose() {
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               className="text-4xl md:text-5xl font-semibold tracking-tight text-brand-navy mb-6"
             >
-              Report faster. Know exactly what's left.
+              Report faster. Know exactly what&apos;s left.
             </motion.h2>
             <motion.p 
               initial={{ opacity: 0, y: 20 }}
@@ -61,7 +61,7 @@ export function MonthEndClose() {
               transition={{ delay: 0.1 }}
               className="text-lg text-slate-600 mb-8"
             >
-              Quarterly emissions reporting shouldn't be a black box. Track data collection progress across all vendors, identify bottlenecks instantly, and ensure every requirement is met on time.
+              Quarterly emissions reporting shouldn&apos;t be a black box. Track data collection progress across all vendors, identify bottlenecks instantly, and ensure every requirement is met on time.
             </motion.p>
 
             <motion.div 

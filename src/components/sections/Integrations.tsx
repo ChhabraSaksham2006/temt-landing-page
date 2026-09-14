@@ -42,7 +42,7 @@ export function Integrations() {
             transition={{ delay: 0.1 }}
             className="text-lg text-slate-600 mb-8"
           >
-            Your carbon accounting platform shouldn't require you to manually collect data. TEMT connects directly to where your operational data already lives.
+            Your carbon accounting platform shouldn&apos;t require you to manually collect data. TEMT connects directly to where your operational data already lives.
           </motion.p>
         </div>
 

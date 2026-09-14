@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { GlassOverlay } from "@/components/ui/GlassOverlay";
-import { ArrowRight, AlertCircle, TrendingUp, CheckCircle2 } from "lucide-react";
+import { ArrowRight, AlertCircle, TrendingUp } from "lucide-react";
 import { motion } from "framer-motion";
 
 export function Hero() {

@@ -65,7 +65,7 @@ export function SocialProof() {
               className="flex flex-col items-center min-h-[300px] md:min-h-[250px]"
             >
               <h3 className="text-2xl md:text-4xl font-semibold text-brand-navy leading-relaxed mb-12 min-h-[160px] flex items-center justify-center">
-                "{testimonials[currentIndex].quote}"
+                &quot;{testimonials[currentIndex].quote}&quot;
               </h3>
               <div className="flex items-center gap-4 text-left">
                 <div className="w-12 h-12 rounded-full bg-slate-200" />

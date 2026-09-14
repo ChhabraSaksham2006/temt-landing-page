@@ -17,7 +17,7 @@ export function ExceptionManagement() {
             viewport={{ once: true, margin: "-50px" }}
             className="text-4xl md:text-5xl font-semibold tracking-tight text-brand-navy mb-6"
           >
-            Don't search for data gaps. Let the system find them.
+            Don&apos;t search for data gaps. Let the system find them.
           </motion.h2>
         </div>
 

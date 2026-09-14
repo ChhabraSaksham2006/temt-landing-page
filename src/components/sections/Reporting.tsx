@@ -16,7 +16,7 @@ export function Reporting() {
             viewport={{ once: true, margin: "-50px" }}
             className="text-4xl md:text-5xl font-semibold tracking-tight text-brand-navy mb-6"
           >
-            Reporting that's ready when management needs it.
+            Reporting that&apos;s ready when management needs it.
           </motion.h2>
         </div>
 

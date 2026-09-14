@@ -3,7 +3,7 @@
 import * as React from "react";
 import { Button } from "@/components/ui/Button";
 import { Menu, X } from "lucide-react";
-import { cn } from "@/lib/utils";
+
 
 export function Navbar() {
   const [isOpen, setIsOpen] = React.useState(false);

@@ -21,7 +21,7 @@ export function SecuritySection() {
           <motion.div 
             initial={{ opacity: 0, scale: 0.8 }}
             whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
             className="w-16 h-16 rounded-2xl bg-brand-indigoLight/10 flex items-center justify-center mx-auto mb-6"
           >
             <ShieldCheck size={32} className="text-brand-indigoLight" />
@@ -29,7 +29,7 @@ export function SecuritySection() {
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
             className="text-4xl md:text-5xl font-semibold tracking-tight mb-6"
           >
             Your emissions data deserves enterprise-grade protection.
@@ -42,7 +42,7 @@ export function SecuritySection() {
               key={i}
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
               transition={{ delay: i * 0.1 }}
               className="flex flex-col items-center justify-center p-6 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 hover:-translate-y-1 transition-all duration-300 cursor-pointer"
             >

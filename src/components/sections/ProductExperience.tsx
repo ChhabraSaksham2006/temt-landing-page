@@ -313,7 +313,7 @@ export function ProductExperience() {
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
             className="text-4xl md:text-5xl font-semibold tracking-tight text-brand-navy mb-6"
           >
             Built for how finance teams actually work.
@@ -323,7 +323,7 @@ export function ProductExperience() {
         <motion.div 
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: true, margin: "-50px" }}
           transition={{ duration: 0.7 }}
           className="relative max-w-6xl mx-auto rounded-xl border border-border-subtle bg-surface-background shadow-2xl overflow-hidden flex flex-col md:flex-row h-[700px]"
         >

@@ -13,7 +13,7 @@ export function Reporting() {
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
             className="text-4xl md:text-5xl font-semibold tracking-tight text-brand-navy mb-6"
           >
             Reporting that's ready when management needs it.
@@ -23,7 +23,7 @@ export function Reporting() {
         <motion.div 
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: true, margin: "-50px" }}
           transition={{ duration: 0.7 }}
           className="max-w-5xl mx-auto rounded-xl border border-border-subtle bg-surface-background shadow-xl overflow-hidden"
         >

@@ -30,7 +30,7 @@ export function Integrations() {
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
             className="text-4xl md:text-5xl font-semibold tracking-tight text-brand-navy mb-6"
           >
             Fits into your existing data stack.
@@ -38,7 +38,7 @@ export function Integrations() {
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
             transition={{ delay: 0.1 }}
             className="text-lg text-slate-600 mb-8"
           >
@@ -52,7 +52,7 @@ export function Integrations() {
               key={i}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
               transition={{ delay: i * 0.1 }}
               className="bg-white rounded-xl border border-border-subtle p-6 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300"
             >

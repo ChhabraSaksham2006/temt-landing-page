@@ -14,7 +14,7 @@ export function FinalCTA() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: true, margin: "-50px" }}
           className="max-w-3xl mx-auto"
         >
           <h2 className="text-5xl md:text-6xl font-bold tracking-tight mb-6">

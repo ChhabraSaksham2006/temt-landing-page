@@ -30,7 +30,7 @@ export function AccountingEstimator() {
             <motion.h2 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
               className="text-4xl md:text-5xl font-semibold tracking-tight mb-6"
             >
               See what your finance team could automate.
@@ -98,7 +98,7 @@ export function AccountingEstimator() {
           <motion.div 
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
             className="bg-white text-brand-navy rounded-2xl p-8 shadow-2xl relative"
           >
             <div className="mb-8 pb-8 border-b border-border-subtle">

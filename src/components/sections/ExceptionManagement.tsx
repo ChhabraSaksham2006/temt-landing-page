@@ -14,7 +14,7 @@ export function ExceptionManagement() {
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
             className="text-4xl md:text-5xl font-semibold tracking-tight text-brand-navy mb-6"
           >
             Don't search for data gaps. Let the system find them.
@@ -26,7 +26,7 @@ export function ExceptionManagement() {
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
             transition={{ delay: 0.1 }}
             className="bg-white rounded-xl border border-status-errorBg p-6 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 flex flex-col h-full border-t-4 border-t-status-error relative overflow-hidden"
           >
@@ -58,7 +58,7 @@ export function ExceptionManagement() {
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
             transition={{ delay: 0.2 }}
             className="bg-white rounded-xl border border-status-warningBg p-6 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 flex flex-col h-full border-t-4 border-t-status-warning relative overflow-hidden"
           >
@@ -90,7 +90,7 @@ export function ExceptionManagement() {
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
             transition={{ delay: 0.3 }}
             className="bg-white rounded-xl border border-border-subtle p-6 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 flex flex-col h-full border-t-4 border-t-slate-300 relative overflow-hidden"
           >

@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden bg-surface-background pt-20 pb-24 md:pt-32 md:pb-32">
+    <section className="relative overflow-hidden bg-surface-background pt-16 pb-16 sm:pt-20 sm:pb-24 md:pt-32 md:pb-32">
       <div className="container mx-auto px-4 md:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-8 items-center">
           
@@ -24,7 +24,7 @@ export function Hero() {
               <span className="inline-block font-semibold text-brand-indigo tracking-wider text-sm uppercase mb-4">
                 Transport Emissions Management Tool
               </span>
-              <h1 className="text-5xl md:text-6xl lg:text-[68px] font-semibold tracking-tight text-brand-navy leading-[1.1] mb-6">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[68px] font-semibold tracking-tight text-brand-navy leading-[1.1] mb-6">
                 Stop estimating emissions. <br className="hidden md:block" /> Start accounting for them.
               </h1>
               <p className="text-lg md:text-xl text-slate-600 mb-8 leading-relaxed max-w-xl">
@@ -96,8 +96,8 @@ export function Hero() {
                 </div>
 
                 {/* Transaction Table */}
-                <div className="border border-border-subtle rounded-lg overflow-x-auto">
-                  <table className="w-full text-sm text-left">
+                <div className="border border-border-subtle rounded-lg overflow-x-auto" role="region" aria-label="Emissions ledger preview" tabIndex={0}>
+                  <table className="min-w-[540px] w-full text-sm text-left">
                     <thead className="bg-slate-50 text-slate-500 border-b border-border-subtle font-medium">
                       <tr>
                         <th className="px-4 py-3 font-medium">Shipment ID</th>

@@ -18,43 +18,43 @@ export function Footer() {
           <div>
             <h4 className="font-semibold text-brand-navy mb-4">Product</h4>
             <ul className="space-y-3 text-sm text-slate-500">
-              <li><a href="#" className="hover:text-brand-indigo">Overview</a></li>
-              <li><a href="#" className="hover:text-brand-indigo">Features</a></li>
-              <li><a href="#" className="hover:text-brand-indigo">Data Sync</a></li>
-              <li><a href="#" className="hover:text-brand-indigo">Analytics</a></li>
-              <li><a href="#" className="hover:text-brand-indigo">BRSR Reporting</a></li>
-              <li><a href="#" className="hover:text-brand-indigo">Integrations</a></li>
+              <li><a href="#product" className="hover:text-brand-indigo">Overview</a></li>
+              <li><a href="#product" className="hover:text-brand-indigo">Features</a></li>
+              <li><a href="#product" className="hover:text-brand-indigo">Data Sync</a></li>
+              <li><a href="#analytics" className="hover:text-brand-indigo">Analytics</a></li>
+              <li><a href="#analytics" className="hover:text-brand-indigo">BRSR Reporting</a></li>
+              <li><a href="#integrations" className="hover:text-brand-indigo">Integrations</a></li>
             </ul>
           </div>
 
           <div>
             <h4 className="font-semibold text-brand-navy mb-4">Solutions</h4>
             <ul className="space-y-3 text-sm text-slate-500">
-              <li><a href="#" className="hover:text-brand-indigo">Finance Teams</a></li>
-              <li><a href="#" className="hover:text-brand-indigo">Logistics Operations</a></li>
-              <li><a href="#" className="hover:text-brand-indigo">ESG Controllers</a></li>
-              <li><a href="#" className="hover:text-brand-indigo">Scope 3 Transport</a></li>
+              <li><a href="#product" className="hover:text-brand-indigo">Finance Teams</a></li>
+              <li><a href="#product" className="hover:text-brand-indigo">Logistics Operations</a></li>
+              <li><a href="#compliance" className="hover:text-brand-indigo">ESG Controllers</a></li>
+              <li><a href="#analytics" className="hover:text-brand-indigo">Scope 3 Transport</a></li>
             </ul>
           </div>
 
           <div>
             <h4 className="font-semibold text-brand-navy mb-4">Resources</h4>
             <ul className="space-y-3 text-sm text-slate-500">
-              <li><a href="#" className="hover:text-brand-indigo">Documentation</a></li>
-              <li><a href="#" className="hover:text-brand-indigo">Case Studies</a></li>
-              <li><a href="#" className="hover:text-brand-indigo">Methodology</a></li>
+              <li><a href="#resources" className="hover:text-brand-indigo">Documentation</a></li>
+              <li><a href="#resources" className="hover:text-brand-indigo">Case Studies</a></li>
+              <li><a href="#resources" className="hover:text-brand-indigo">Methodology</a></li>
             </ul>
           </div>
 
           <div>
             <h4 className="font-semibold text-brand-navy mb-4">Company</h4>
             <ul className="space-y-3 text-sm text-slate-500">
-              <li><a href="#" className="hover:text-brand-indigo">About</a></li>
-              <li><a href="#" className="hover:text-brand-indigo">Contact</a></li>
-              <li><a href="#" className="hover:text-brand-indigo">Careers</a></li>
-              <li><a href="#" className="hover:text-brand-indigo">Privacy</a></li>
-              <li><a href="#" className="hover:text-brand-indigo">Terms</a></li>
-              <li><a href="#" className="hover:text-brand-indigo">Security & Data Handling</a></li>
+              <li><a href="#main-content" className="hover:text-brand-indigo">About</a></li>
+              <li><a href="#contact" className="hover:text-brand-indigo">Contact</a></li>
+              <li><span>Careers</span></li>
+              <li><span>Privacy</span></li>
+              <li><span>Terms</span></li>
+              <li><a href="#compliance" className="hover:text-brand-indigo">Security & Data Handling</a></li>
             </ul>
           </div>
         </div>
@@ -62,9 +62,9 @@ export function Footer() {
         <div className="border-t border-border-subtle pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-slate-500">
           <div>© 2026 TEMT. All rights reserved.</div>
           <div className="flex gap-4">
-            <a href="#" className="hover:text-brand-indigo">Security</a>
-            <a href="#" className="hover:text-brand-indigo">Privacy</a>
-            <a href="#" className="hover:text-brand-indigo">Terms</a>
+            <a href="#compliance" className="hover:text-brand-indigo">Security</a>
+            <span>Privacy</span>
+            <span>Terms</span>
           </div>
         </div>
       </div>

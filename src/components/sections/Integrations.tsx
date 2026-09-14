@@ -24,13 +24,14 @@ export function Integrations() {
   ];
 
   return (
-    <section className="py-12 md:py-24 bg-surface-background border-t border-border-subtle">
+    <section id="integrations" className="py-12 md:py-24 bg-surface-background border-t border-border-subtle" aria-labelledby="integrations-heading">
       <div className="container mx-auto px-4 md:px-8">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-50px" }}
+            id="integrations-heading"
             className="text-4xl md:text-5xl font-semibold tracking-tight text-brand-navy mb-6"
           >
             Fits into your existing data stack.

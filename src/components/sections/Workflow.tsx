@@ -16,13 +16,14 @@ export function Workflow() {
   ];
 
   return (
-    <section className="hidden md:block py-12 md:py-24 bg-brand-navy overflow-hidden">
+    <section id="resources" className="hidden md:block py-12 md:py-24 bg-brand-navy overflow-hidden" aria-labelledby="workflow-heading">
       <div className="container mx-auto px-4 md:px-8">
         <div className="max-w-3xl mx-auto text-center mb-24">
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-50px" }}
+            id="workflow-heading"
             className="text-4xl md:text-5xl font-semibold tracking-tight text-white mb-6"
           >
             From shipment to insight — all in one workflow.

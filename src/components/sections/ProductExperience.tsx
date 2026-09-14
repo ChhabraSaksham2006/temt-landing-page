@@ -307,13 +307,14 @@ export function ProductExperience() {
   };
 
   return (
-    <section className="py-12 md:py-24 bg-white overflow-hidden">
+    <section id="product" className="py-12 md:py-24 bg-white overflow-hidden" aria-labelledby="product-heading">
       <div className="container mx-auto px-4 md:px-8">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-50px" }}
+            id="product-heading"
             className="text-4xl md:text-5xl font-semibold tracking-tight text-brand-navy mb-6"
           >
             Built for how finance teams actually work.
@@ -325,7 +326,7 @@ export function ProductExperience() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-50px" }}
           transition={{ duration: 0.7 }}
-          className="relative max-w-6xl mx-auto rounded-xl border border-border-subtle bg-surface-background shadow-2xl overflow-hidden flex flex-col md:flex-row h-[700px]"
+          className="relative max-w-6xl mx-auto rounded-xl border border-border-subtle bg-surface-background shadow-2xl overflow-hidden flex flex-col md:flex-row h-[620px] md:h-[700px]"
         >
           {/* Sidebar */}
           <div className="w-64 bg-white border-r border-border-subtle p-4 hidden lg:flex flex-col">

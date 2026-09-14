@@ -15,7 +15,7 @@ export function SecuritySection() {
   ];
 
   return (
-    <section className="py-12 md:py-24 bg-brand-navy text-white">
+    <section id="compliance" className="py-12 md:py-24 bg-brand-navy text-white" aria-labelledby="compliance-heading">
       <div className="container mx-auto px-4 md:px-8">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <motion.div 
@@ -30,6 +30,7 @@ export function SecuritySection() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-50px" }}
+            id="compliance-heading"
             className="text-4xl md:text-5xl font-semibold tracking-tight mb-6"
           >
             Your emissions data deserves enterprise-grade protection.

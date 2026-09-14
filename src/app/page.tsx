@@ -14,12 +14,23 @@ import { SecuritySection } from "@/components/sections/SecuritySection";
 import { SocialProof } from "@/components/sections/SocialProof";
 import { FinalCTA } from "@/components/sections/FinalCTA";
 import { Footer } from "@/components/sections/Footer";
+import { siteDescription, siteName, siteUrl } from "@/lib/site";
+
+const organizationJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: siteName,
+  url: siteUrl.toString(),
+  description: siteDescription,
+  logo: new URL("/favicon.ico", siteUrl).toString(),
+};
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="flex-1">
+      <main id="main-content" className="flex-1">
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd).replace(/</g, "\\u003c") }} />
         <Hero />
         <TrustBar />
         <CoreCapabilities />

@@ -19,7 +19,7 @@ export function Navbar() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border-subtle bg-white/80 backdrop-blur-md">
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-8">
-        <div className="flex items-center gap-2">
+          <a href="#main-content" className="flex items-center gap-2 rounded focus:outline-none focus:ring-2 focus:ring-brand-indigo focus:ring-offset-2" aria-label="TEMT home">
           {/* Logo Placeholder */}
           <div className="h-8 w-8 rounded-lg bg-brand-indigo flex items-center justify-center">
             <span className="text-white font-bold text-lg leading-none">T</span>
@@ -27,7 +27,7 @@ export function Navbar() {
           <span className="text-xl font-bold tracking-tight text-brand-navy">
             TEMT
           </span>
-        </div>
+          </a>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-6">
@@ -52,7 +52,9 @@ export function Navbar() {
         <button
           className="md:hidden p-2 text-slate-600"
           onClick={() => setIsOpen(!isOpen)}
-          aria-label="Toggle Menu"
+          aria-label={isOpen ? "Close navigation menu" : "Open navigation menu"}
+          aria-expanded={isOpen}
+          aria-controls="mobile-navigation"
         >
           {isOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
@@ -61,7 +63,7 @@ export function Navbar() {
       {/* Mobile Nav */}
       {isOpen && (
         <div className="md:hidden border-t border-border-subtle bg-white p-4">
-          <nav className="flex flex-col gap-4">
+          <nav id="mobile-navigation" className="flex flex-col gap-4" aria-label="Mobile navigation">
             {links.map((link) => (
               <a
                 key={link.name}

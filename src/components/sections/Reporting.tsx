@@ -7,13 +7,14 @@ import { Button } from "@/components/ui/Button";
 
 export function Reporting() {
   return (
-    <section className="py-12 md:py-24 bg-white overflow-hidden">
+    <section id="analytics" className="py-12 md:py-24 bg-white overflow-hidden" aria-labelledby="analytics-heading">
       <div className="container mx-auto px-4 md:px-8">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-50px" }}
+            id="analytics-heading"
             className="text-4xl md:text-5xl font-semibold tracking-tight text-brand-navy mb-6"
           >
             Reporting that&apos;s ready when management needs it.
@@ -53,8 +54,8 @@ export function Reporting() {
           </div>
 
           {/* Report Body */}
-          <div className="p-4 md:p-8 bg-white min-h-[400px] overflow-x-auto">
-            <table className="w-full text-left text-sm">
+          <div className="p-4 md:p-8 bg-white min-h-[400px] overflow-x-auto" role="region" aria-label="Scope 3 emissions report preview" tabIndex={0}>
+            <table className="min-w-[620px] w-full text-left text-sm">
               <thead>
                 <tr className="border-b-2 border-brand-navy">
                   <th className="py-3 font-semibold text-brand-navy uppercase tracking-wider">Transport Mode</th>
